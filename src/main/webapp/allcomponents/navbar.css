@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 7, 2023, 6:15:54 AM
+    Author     : hp
+*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#58BDAB;
+    padding:0 10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
+    color: #0b0b0b;
+}
+
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background: aqua;
+    display: none;
+}
+.header .navigation ul li{
+    float:left;
+    position: relative;
+}
+.header .navigation ul li a{
+   font-size:20px;
+    color:var(--color-white);
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    
+    transition:all .2s ease;
+}
+.header .navigation ul li a:hover{
+    background: skyblue;
+    
+}
+.header .navigation ul li ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navigation ul li ul li ul{
+    position: absolute;
+    top:0;
+    right: 300px;
+}
+.header .navigation ul li ul li {
+    width:100%;
+    border-top:1px solid aqua;
+}
+.header .navigation ul li:hover > ul{
+    display:initial;
+}
+.header .navigation ul li ul li span{
+    float:right;
+    /* color:var(--color-white); */
+    /* background:aqua; */
+    padding:5px 10px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}

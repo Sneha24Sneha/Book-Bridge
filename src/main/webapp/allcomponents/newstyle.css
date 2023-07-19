@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 6, 2023, 2:36:58 AM
+    Author     : hp
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+body{
+  margin: 0;
+ 
+    padding: 0;
+   
+    
+    background-position : center;
+    background-size : cover;
+}
+.hero{
+   min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('banner.jpg');
+   
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.search-field{
+    margin-bottom: 50px;
+    padding: 10px;
+    border:none;
+    
+    outline:none;
+}
+.business
+{
+    width:300px;
+    height:50px;
+}
+.location
+{
+    width:200px;
+    height:50px;
+}
+h1{
+    color: #FFFFFF;
+    margin-bottom:70px;
+    font-size:45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.search-btn{
+    height: 50px;
+    width:150px;
+    background:#ffeb3b;
+    border:none;
+    color:#000;
+   
+}
+.search-btn:hover{
+   background: #ffc107;
+   cursor:pointer;
+}
+.form-box
+{
+    justify-content:center;
+    background: rgba(0,0,0,0.5);
+    padding: 30px 50px;
+}
+
+
+  .box-container {
+    display: flex;
+    height: 700%;
+    width: 70%;
+    justify-content: center;
+    margin: -90px;
+    margin-left: 12%;
+  margin-right: 12%;
+  border-color: rgb(14, 14, 14);
+  background-color:coral;
+  padding: 10px;
+  box-shadow: 10px 10px rgb(14, 14, 14);
+  color:#FFFFFF;
+  font-family: sans-serif;
+  border: 2px solid;
+  }
+  
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+  
+  
+  
+
+  /* backgroud-image : url();
+  bakground-position : center;
+  background-size : cover; */
+  
+ 
+.navigation ul{
+list-style: none;
+display: flex;
+}
+
+.myflex{
+    display: flex;
+}
